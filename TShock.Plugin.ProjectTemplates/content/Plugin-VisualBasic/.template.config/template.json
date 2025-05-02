@@ -54,6 +54,12 @@
             "datatype": "choice",
             "choices": [
                 {
+                    "choice": "5.2.3"
+                },
+                {
+                    "choice": "5.2.2"
+                },
+                {
                     "choice": "5.2.1"
                 },
                 {
