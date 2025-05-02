@@ -34,4 +34,5 @@ jobs:
             CodeSnippet/
             
       - name: Push to Nuget
+        if: github.event_name == 'push'
         run: dotnet nuget push TShock.Plugin.ProjectTemplates/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
